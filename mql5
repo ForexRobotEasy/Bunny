@@ -1,0 +1,79 @@
+
+//+------------------------------------------------------------------+
+//|                                                   Bunny.mq5      |
+//|                   Copyright 2023, Forex Robot Easy Team          |
+//|                          https://www.forexroboteasy.com          |
+//+------------------------------------------------------------------+
+//|                                                                   |
+//|               Bunny Forex Software Code Development               |
+//|                                                                   |
+//|  Objective: Develop code for Bunny Forex Software                  |
+//|             An automated Forex trading advisor with an             |
+//|             optimization system to select profitable settings      |
+//|                                                                   |
+//|  Code Requirements:                                                |
+//|  1. Implement automated optimization system                        |
+//|  2. Select most profitable trading settings automatically         |
+//|  3. Use parameters FolderNumber and Auto_Magic                     |
+//|  4. Incorporate TradeFileSettings param with Auto_Magic            |
+//|  5. Integrate files in specified FolderNumber                      |
+//|  6. Execute trading algorithm based on selected settings           |
+//|  7. Efficient execution and minimize errors during trading         |
+//|  8. Use necessary trading functions                                |
+//|                                                                   |
+//+------------------------------------------------------------------+
+
+// Define parameters
+input int FolderNumber = 1;   // Folder number for file integration
+input bool Auto_Magic = true; // Enable Auto_Magic functionality
+
+// Initialize optimization system
+void InitializeOptimization()
+{
+    // Code to analyze thousands of settings sets
+    // ...
+}
+
+// Select most profitable trading settings set
+void SelectProfitableSettings()
+{
+    // Code to automatically select profitable settings
+    // ...
+}
+
+// Integrate files in specified FolderNumber
+void IntegrateFiles()
+{
+    // Code to integrate files from specified folder
+    // ...
+}
+
+// Execute trading algorithm based on selected settings set
+void ExecuteTradingAlgorithm()
+{
+    // Code to execute the trading algorithm
+    // ...
+}
+
+// Main entry point
+void OnStart()
+{
+    // Initialize optimization system
+    InitializeOptimization();
+    
+    // Select most profitable trading settings set
+    SelectProfitableSettings();
+    
+    // Incorporate TradeFileSettings param with Auto_Magic
+    if (Auto_Magic)
+    {
+        // Code to incorporate TradeFileSettings param
+        // ...
+    }
+    
+    // Integrate files in specified FolderNumber
+    IntegrateFiles();
+    
+    // Execute trading algorithm based on selected settings set
+    ExecuteTradingAlgorithm();
+}
